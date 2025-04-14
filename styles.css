@@ -208,3 +208,12 @@ table {
     margin: 20px;
     margin-top: -5px;
   }
+
+  @media (max-width: 768px) {
+    body{
+        scale: 1.5;
+    }
+    #content {
+      width: 60%;
+    }
+  }

@@ -154,12 +154,13 @@ a:active{
     animation-duration: 0.8s;
 }
 
-h4{
+#footer{
     text-align: center;
-    margin: -10px;
+    margin: 10px;
     font-weight: 400;
     font-size: 1.6vw;
     margin-top: 14px;
+    padding-top: 15px;
 }
 
 h5{
@@ -173,3 +174,32 @@ h5{
 #tierlister{
     margin: 0px
 }
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 5px auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    background-color: #1C2939;
+    position: relative;
+    animation-name: flyin;
+    animation-duration: 0.8s;
+  }
+  
+  /* Header cell styling */
+  th {
+    background-color: #1C2939;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  
+  /* Data cell styling */
+  td {
+    border: 2px solid #ddd;
+    padding: 14px;
+    text-align: center;
+    font-size: 1rem
+  }

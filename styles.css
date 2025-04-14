@@ -203,3 +203,8 @@ table {
     text-align: center;
     font-size: 1rem
   }
+
+  #spoiler{
+    margin: 20px;
+    margin-top: -5px;
+  }

@@ -3,6 +3,11 @@
     src: url(assets/font.ttf);
 }
 
+@keyframes flyin {
+    from { top: -30px; opacity: 0; }
+    to { top: 0px; opacity: 1; }
+}
+
 body{
     background-image: url("assets/bg.png");
     background-repeat: repeat;
@@ -32,11 +37,17 @@ body{
     display: block;
     margin: 0 auto;
     margin-top: 35px;
+    position: relative;
+    animation-name: flyin;
+    animation-duration: 0.8s;
 }
 
 .text{
     font-family: Spartan;
     color: white;
+    animation-name: flyin;
+    animation-duration: 0.8s;
+    position: relative;
 }
 
 p{
@@ -68,6 +79,9 @@ h1{
     margin: 0 auto;
     margin-top: -10px;
     padding-bottom: 30px;
+    position: relative;
+    animation-name: flyin;
+    animation-duration: 0.8s;
 }
 
 h2{
@@ -116,6 +130,9 @@ a{
     text-align: center;
     margin-top: -3px;
     margin-bottom: 20px;
+    position: relative;
+    animation-name: flyin;
+    animation-duration: 0.8s;
 }
 
 a:hover{
@@ -132,6 +149,9 @@ a:active{
     margin: 0 auto;
     margin-top: 10px;
     padding-bottom: 30px;
+    position: relative;
+    animation-name: flyin;
+    animation-duration: 0.8s;
 }
 
 h4{
